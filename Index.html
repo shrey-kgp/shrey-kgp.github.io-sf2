@@ -2,12 +2,13 @@
 <html>
 
 <head>
-<title>Shreyansh Vats-Interests</title>
-<meta charset="utf-8">
+<title>Login</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
 <style type="text/css">
+
 * {
     box-sizing: border-box;
 }
@@ -41,6 +42,7 @@
     padding: 15px;
     
 }
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -56,12 +58,24 @@
          }	  
 img {
     box-sizing: border-box;
-	}
+	border:1px dashed white;}
 body{font-family: 'Indie Flower', cursive;
      color:white;
-	 background-color:black;
+	 
+		  background-color:black;
 		  }
-
+input[type=text],input[type=password]  {width:100%;
+                  padding:26px 20px;
+				  box-sizing:border-box;
+				  border:2px solid red;}
+input[type=submit] {background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;}
+				  
 </style>
 
 
@@ -70,22 +84,28 @@ body{font-family: 'Indie Flower', cursive;
 <body>
 
 <div class="header">
-  <h2 style="font-size:2vw"><a href="Index.html">Home</a></h2>
-  <h2 style="font-size:2vw"><a href="Page2.html">Know Me!</a></h2>
-  <h2 style="font-size:2vw"><a href="Page3.html">Interests</a></h2>
+  <h2 style="font-size:2vw"><a href="KTJ1_page2.html">Sign Up</a></h2>
 </div>
 
 <div class="row">
 <div class="col-6">
-<ul style="font-size:2vw">
-<li>Email: shreyanshvts@gmail.com</li>
-<li><a href="https://www.facebook.com/shreyansh.vats"><img src="FB.png" style="width:50px ;height:50px;"></a></li>
-</ul>
+<form style="font-size:3vw">
+  <label for="username">Username:</label>
+  <input type="text" name="username" maxlength="15" />
+<br />
+<br />
+  <label for="pword">Password:</label>
+  <input type="password" name="pword" maxlength="10" minlength="5" />
+<br/>
+<br/>
+  <input type="submit" value="Login">
+
+</form>
 </div>
 
 <div class="col-6">
-  <p style="font-size:3vw"><font size="30px" align="center"><strong><i>Contact</i></strong></font></p>
-  <img src="2.jpg" style="max-width:100%;height:auto;">
+  <p style="font-size:3vw"><strong><i>Ahoy People!<br/>Login here.</i></strong></p>
+  <img src="BG6.jpg" style="width:100%">
 </div>	 
 </div>
  
